@@ -80,8 +80,8 @@ class Var(object):
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002096211011'))
-    PORT = int(getenv('PORT', 8080))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '0.0.0.0'))
+    PORT = int(getenv('PORT', 6888))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', '149.40.63.3'))
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
